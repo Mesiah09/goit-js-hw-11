@@ -69,10 +69,7 @@ function onLoadMoreImg(e) {
 
     renderMarkup(markup);
 
-    let lightbox = new SimpleLightbox('.gallery a', {
-      captionsData: 'alt',
-      captionDelay: 250,
-    });
+
 
     lightbox.refresh();
     const { height: cardHeight } = document
